@@ -1,0 +1,10 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+  }
+
+  /* Before adding the "display: flex;" element to this class css, the elements
+        on the index html were stacked on top of one another. However,
+        after adding the flex mark, the blocks placed themselves next to
+        each other, though the container theyre placed in is still taking up
+        the whole block width. */ 
