@@ -1,8 +1,17 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
+    height: 100%;
+    align-items: center;
   }
 
+.logout {
+  align-self: flex-start;
+}
+
+.home {
+  align-self: flex-end;
+}
 /* Before adding the "display: flex;" element to this class css, the elements
         on the index html were stacked on top of one another. However,
         after adding the flex mark, the blocks placed themselves next to
@@ -14,10 +23,10 @@
     /*flex-grow, flex-shrink, flex-basis*/
 
 
-.search {
+/* .search {
   flex: 2;
 }
 
 .logout, .home {
   flex-shrink: 0;
-}
+} */
