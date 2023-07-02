@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px 20px;
 }
 
 input {
@@ -59,8 +62,7 @@ ul, a{
 .footer {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
   background-color: lightgray;
-  flex-direction: row;
+  padding: 20px;
 }
 
