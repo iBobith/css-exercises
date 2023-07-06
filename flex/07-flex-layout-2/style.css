@@ -7,10 +7,15 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   height: 72px;
   background: darkmagenta;
   color: white;
   font-weight: 700;
+  padding: 0 20px;
+  font-weight: 900px;
+  font-size: 32px;
 }
 
 .footer {
@@ -19,6 +24,8 @@ body {
   color: darkmagenta;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
@@ -26,32 +33,43 @@ body {
   background: royalblue;
   box-sizing: border-box;
   display: flex;
-  flex: 1;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
 }
 a, ul {
   text-decoration: none;
   list-style: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+li {
+  padding-bottom: 16px;
 }
 
 /* My Additions */
 
-.container {
+.cards {
   display: flex;
   justify-items: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 .side {
   display: flex;
   flex-direction: column;
 }
 
-.every {
+.body {
+  flex: 1;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
